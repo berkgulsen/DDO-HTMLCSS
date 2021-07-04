@@ -1,0 +1,84 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(10, 11, 13);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.homebackground{
+    background-image: url(img/coderepeat.jpg);
+    height: 817px;
+    background-position: center;
+}
+
+.logo img  {
+    padding: 30px;
+    height: 120px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.myname{
+    font-size: 17px;
+}
+
+.nav-block{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+}
+
+.menu{
+    list-style: none;
+    display: block;
+    width: 500px;
+    position: absolute;
+    right: 20px;
+}
+
+.menu li{
+    display: inline;
+    position: relative;
+    text-transform: uppercase;
+    padding: 22px;
+    font-style: normal;
+    letter-spacing: 1.5px;
+}
+
+.menu a{
+     text-decoration: inherit;
+     color: white;
+}
+
+.myinfo{
+    padding-left: 70px;
+    padding-top: 100px;
+    font-size: 35px;
+}
+
+#aboutme, #portfolio, #contact{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.skill-bookmark{
+    float: right;
+}
+
+#card{ 
+    background-color: rgb(10, 11, 13); 
+}
+#contactcard{
+    background-color: rgb(10, 11, 13);
+}
+
+i{
+    color: white;
+}
